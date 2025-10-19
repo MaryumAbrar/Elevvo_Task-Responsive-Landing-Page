@@ -220,10 +220,21 @@ body.dark .navbar {
 
 body.dark .card,
 body.dark .price-card,
-body.dark .testimonial {
+body.dark .testimonials {
   background: #1f1f1f;
   color: #eee;
 }
+
+body.dark .testimonial{
+   background: #222;
+  color: #eee;
+}
+
+body.dark footer{
+   background: #222;
+  color: #eee;
+}
+
 
 body.dark .cta {
   background: #222;
@@ -233,6 +244,7 @@ body.dark .cta {
 body.dark .hamburger{
  color: #eee;
 }
+
 
 @media (max-width: 768px) {
   .nav-links {
